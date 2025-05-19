@@ -22,12 +22,12 @@ from aiogram.fsm.state import State, StatesGroup
 
 
 
-TOKEN_API = '7493810961:AAHfNOdKKAW_oRsvsO0pZWX7P5LlODdjE74'
+TOKEN_API = 'YOUR_TOKEN'
 
 bot = Bot(token=TOKEN_API)
 dp = Dispatcher()
  
-openai.api_key = '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'
+
 
 yes_udon = ReplyKeyboardMarkup(keyboard=[
     [KeyboardButton(text="Конечно!")],
